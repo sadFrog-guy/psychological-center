@@ -1,0 +1,49 @@
+.main.modified {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*ARTICLE*/
+
+.full_article_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    min-height: 70vh;
+}
+
+.full_article_item {
+    width: 70%;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 40px;
+}
+
+.full_article_item:last-child {
+    margin-bottom: 0;
+}
+
+.full_article_text {
+    font-size: 15px;
+}
+
+.full_article_image {
+    width: 88px;
+    border: 1px solid lightgray;
+    float: left;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.full_article_date {
+    color: gray;
+    font-size: 14px;
+}
+
+.full_article_header {
+    font-size: 18px;
+    text-decoration: none;
+    color: #0850B4;
+}

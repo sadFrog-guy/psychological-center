@@ -1,0 +1,35 @@
+/*SERVICE*/
+
+.main_service {
+    width: 64%;
+    min-height: 70vh;
+}
+
+.service_image__block {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.service_text {
+    word-break: break-word;
+}
+
+.service_info__list {
+    margin-bottom: 10px;
+}
+
+.service_info__header {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.service_info__item {
+    margin-bottom: 10px;
+}
+
+.line.margin {
+    margin-bottom: 25px;
+}
